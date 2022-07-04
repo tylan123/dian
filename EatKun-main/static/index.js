@@ -343,11 +343,11 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 30) return '鸡你太美';
-    if (score <= 60) return '鸡你太太美';
-    if (score <= 100) return '鸡鸡鸡鸡鸡';
-    if (score <= 150) return '唱 跳 rap 篮球';
-    return '你就是蔡徐坤本人？';
+    if (score <= 30) return '没抢到呢';
+    if (score <= 60) return '还差一段距离呢';
+    if (score <= 100) return '马上就到了呢';
+    if (score <= 150) return '在你身后哦';
+    return '你恋恋本人？';
 }
 
 function toStr(obj) {
